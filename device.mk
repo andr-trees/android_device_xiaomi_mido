@@ -391,3 +391,12 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+PRODUCT_PACKAGES += \
+    liboffloadhal \
+    wificond \
+    wifilogd \
+    libwpa_client \
+    wcnss_service \
+    libcld80211 \
+    lib_driver_cmd_qcwcn
